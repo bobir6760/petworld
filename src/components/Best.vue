@@ -40,6 +40,7 @@ export default {
   font-weight: bold;
   font-size: 80px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .best-subvtitle {
   font-size: 20px;
@@ -54,11 +55,14 @@ export default {
   cursor: pointer;
   font-size: 20px;
 }
-.best-btn:active {
-  color: black;
+.best-btn:hover {
+  transition: 0.5s;
+  background-color: #2a50c1;
+  border-radius: 5px;
 }
 .best-image img {
   width: 100%;
+  cursor: pointer;
 }
 
 

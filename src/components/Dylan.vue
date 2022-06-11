@@ -43,16 +43,23 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 .dylan-wrapper__image {
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .dylan-wrapper__title {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 50px;
+  cursor: pointer;
 }
-
+.dylan-wrapper__subscribe:hover {
+  text-decoration: underline crimson;
+  cursor: pointer;
+  transition: 0.7s;
+}
 
 @media screen and (max-width: 768px) {
   .dylan-wrapper {
@@ -60,7 +67,6 @@ export default {
     flex-direction: column;
   }
 }
-
 
 @media screen and (max-width: 576px) {
   .dylan-image img {

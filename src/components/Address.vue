@@ -101,13 +101,16 @@ export default {
 }
 .address-image img {
   width: 100%;
+  cursor: pointer;
 }
 .address-info__title {
   font-weight: bold;
+  cursor: pointer;
 }
 .address-inbox__title {
   font-size: 20px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 .address-btn {
   margin-left: 20px;
@@ -122,6 +125,11 @@ export default {
 .address-btn:active {
   color: black;
 }
+.address-btn:hover {
+  transition: 0.5s;
+  background-color: #dfbf70;
+  border-radius: 3px;
+}
 .address-inbox__item {
   margin-bottom: 30px;
 }
@@ -134,6 +142,7 @@ export default {
   width: 20px;
   height: 20px;
   object-fit: cover;
+  cursor: pointer;
 }
 .address-wrapper__item {
   display: flex;
@@ -146,14 +155,17 @@ export default {
 .address-wrapper__title {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .address-item__title {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .address-item__subtitle {
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 .address__block {
   display: flex;
@@ -163,22 +175,25 @@ export default {
   display: flex;
   gap: 20px;
   padding-bottom: 36px;
+  cursor: pointer;
 }
 .address-block__title {
   font-weight: bold;
   font-size: 20px;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .address-block-subtitle {
   padding-bottom: 16px;
 }
 .address-wrapper__image {
   margin-left: 20px;
+  cursor: pointer;
 }
 .address-icon {
   display: flex;
+  cursor: pointer;
 }
-
 
 @media screen and (max-width: 992px) {
   .address-info {
@@ -204,7 +219,6 @@ export default {
     align-items: baseline;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .address-body {
@@ -242,7 +256,6 @@ export default {
   }
 }
 
-
 @media screen and (max-width: 576px) {
   .address-wrapper {
     display: flex;
@@ -268,8 +281,8 @@ export default {
     font-size: 17px;
   }
   .address-wrapper__image {
-   padding-right: 20px;
-   margin: 0px;
+    padding-right: 20px;
+    margin: 0px;
   }
   .address-block-subtitle {
     flex-direction: column;
@@ -304,8 +317,8 @@ export default {
   .address__block {
     flex-direction: column;
   }
-   .address-wrapper__block {
-     padding: 0px;
-   }
+  .address-wrapper__block {
+    padding: 0px;
+  }
 }
 </style>

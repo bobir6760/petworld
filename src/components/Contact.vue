@@ -40,6 +40,7 @@ export default {
   font-size: 80px;
   font-weight: bold;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 .contact-subtitle {
   font-size: 20px;
@@ -54,11 +55,13 @@ export default {
   border: none;
   cursor: pointer;
 }
-.contact-btn:active {
-  color: black;
+.contact-btn:hover {
+  transition: 0.5s;
+  background: #2a50c1;
 }
 .contact-image img {
   width: 100%;
+  cursor: pointer;
 }
 
 

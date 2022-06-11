@@ -68,11 +68,13 @@ export default {
   width: 100px;
   height: 100px;
   object-fit: contain;
+  cursor: pointer;
 }
 .food-wrapper__title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .food-wrapper__subscribe {
   display: flex;

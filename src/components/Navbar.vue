@@ -38,6 +38,7 @@ export default {
 }
 .navbar-title {
   font-weight: bold;
+  cursor: pointer;
 }
 .navbar-item {
   display: flex;
@@ -49,19 +50,23 @@ export default {
   font-size: 20px;
   color: white;
   background-color: #2a50c1;
-  border-radius: 10px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
 }
-.navbar-btn:active {
-  color: black;
+.navbar-btn:hover {
+  transition: 0.5s;
+  box-shadow: inset 300px 0 0 0 #dfbf70;
+  border-radius: 5px;
 }
 .navbar-item__title {
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 .navbar-wrapper__image img {
   width: 100%;
+  cursor: pointer;
 }
 
 

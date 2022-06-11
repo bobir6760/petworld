@@ -25,6 +25,7 @@ export default {
 }
 .welmart-image {
   width: 70%;
+  cursor: pointer;
 }
 .welmart-info {
   display: flex;
