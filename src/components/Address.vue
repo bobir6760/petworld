@@ -62,16 +62,16 @@
 
           <div class="address-icon">
             <div class="address-wrapper__image">
-              <img src="@/assets/img/facebook.svg" alt="" />
-            </div>
-            <div class="address-wrapper__image">
-              <img src="@/assets/img/IN.svg" alt="" />
+              <img src="@/assets/img/Instagram.svg" alt="" />
             </div>
             <div class="address-wrapper__image">
               <img src="@/assets/img/Instagram.svg" alt="" />
             </div>
             <div class="address-wrapper__image">
-              <img src="@/assets/img/Twitter.svg" alt="" />
+              <img src="@/assets/img/Instagram.svg" alt="" />
+            </div>
+            <div class="address-wrapper__image">
+              <img src="@/assets/img/Instagram.svg" alt="" />
             </div>
           </div>
         </div>
@@ -187,11 +187,18 @@ export default {
   padding-bottom: 16px;
 }
 .address-wrapper__image {
-  margin-left: 20px;
+  width: 100%;
   cursor: pointer;
+}
+.address-wrapper__image:hover{
+  background: #D5D8DC;
+  border-radius: 5px;
+  padding: 5px 3px 0px 3px;
+  transition: 0.7s;
 }
 .address-icon {
   display: flex;
+  gap: 20px;
   cursor: pointer;
 }
 

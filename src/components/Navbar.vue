@@ -50,7 +50,7 @@ export default {
   font-size: 20px;
   color: white;
   background-color: #2a50c1;
-  border-radius: 12px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
 }

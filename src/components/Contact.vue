@@ -51,13 +51,14 @@ export default {
   font-size: 20px;
   color: white;
   background-color: #dfbf70;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
 }
 .contact-btn:hover {
   transition: 0.5s;
   background: #2a50c1;
+  border-radius: 5px;
 }
 .contact-image img {
   width: 100%;

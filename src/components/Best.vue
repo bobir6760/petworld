@@ -50,7 +50,7 @@ export default {
   padding: 15px 45px;
   color: white;
   background-color: #dfbf70;
-  border-radius: 10px;
+  border-radius: 15px;
   border: none;
   cursor: pointer;
   font-size: 20px;
